@@ -58,6 +58,10 @@ a:hover {
     text-align: center;
 }
 
+.home-img {
+    order: -1!important;
+}
+
 /* --------------------------------- About ----------------------------- */
 
 .about {
@@ -83,3 +87,9 @@ a:hover {
 }
 
 /* --------------------------------- Media Query ----------------------------- */
+
+@media all and (min-width: 990px) {
+    .home-img {
+        order: 1!important;
+    }
+}
