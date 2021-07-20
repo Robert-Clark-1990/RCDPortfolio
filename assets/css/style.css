@@ -33,7 +33,6 @@ img {
 a {
     font-family: 'Poiret One', cursive;
     font-size: 1.5rem;
-    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -46,9 +45,50 @@ a:hover {
     -webkit-transition: all 0.30s ease-in-out;
 }
 
+.btn {
+    color: whitesmoke;
+    background-color: rgb(151, 3, 3);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    text-decoration: none;
+    width: 100%;
+}
+
+.btn:hover {
+    color: whitesmoke;
+    background-color: #ca0202;
+    transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out; 
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+}
+
+.nav-item {
+    color: rgb(20, 18, 18);
+}
+
+.nav-item a:hover{
+    color: #ca0202;
+    transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out; 
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+}
+
+#topnav {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    z-index: 999;
+    padding: 0;
+    margin: 0;
+}
+
 /* --------------------------------- Homepage ----------------------------- */
 
-.homepage {
+#homepage {
     background-color: whitesmoke;
     width: 100vw;
     height: 100vh;
@@ -58,13 +98,32 @@ a:hover {
     text-align: center;
 }
 
-.home-img {
+.art {
     order: -1!important;
+}
+
+.button-div {
+    width: 50%;
+    margin: 0 auto;
+}
+
+  .slick-next:before {
+    content: none !important;
+}
+
+.slick-prev:before {
+    content: none !important;
+}
+
+.carousel {
+    overflow: hidden;
+    text-align: center;
+    width: 80vw;
 }
 
 /* --------------------------------- About ----------------------------- */
 
-.about {
+#about {
     background-color: rgb(20, 18, 18);
     width: 100vw;
     height: 100vh;
@@ -72,7 +131,7 @@ a:hover {
 
 /* --------------------------------- Portfolio ----------------------------- */
 
-.portfolio {
+#portfolio {
     background-color: whitesmoke;
     width: 100vw;
     height: 100vh;
@@ -80,16 +139,40 @@ a:hover {
 
 /* --------------------------------- Contact ----------------------------- */
 
-.contact {
+#contact {
     background-color: rgb(20, 18, 18);
     width: 100vw;
     height: 100vh;
 }
 
+.scribble {
+    width: 40vw;
+    height: auto;
+    margin: 0 auto;
+}
+
 /* --------------------------------- Media Query ----------------------------- */
 
 @media all and (min-width: 990px) {
-    .home-img {
+    .art {
         order: 1!important;
+    }
+    .scribble {
+        width: 400px;
+        height: auto;
+    }
+    .carousel {
+        overflow: hidden;
+        width: 50vw;
+    }
+}
+
+@media all and (min-width: 1880px) {
+    .art {
+        order: 1!important;
+    }
+    .carousel {
+        overflow: hidden;
+        width: 40vw;
     }
 }

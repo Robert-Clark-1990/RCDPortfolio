@@ -6,54 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Poiret+One&display=swap">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Poiret+One&display=swap">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Robert Clark Design</title>
 </head>
 <body>
+    <header class="fixed-top">
+        <div id="topnav" class="row">
+            <div class="col-12 my-auto">
+                <a class="nav-item px-3" href="#about">About</a>
+                <a class="nav-item px-3" href="#portfolio">Portfolio</a>
+                <a class="nav-item px-3" href="#contact">Contact</a>
+            </div>
+        </div>
+    </header>
 
-    <section class="homepage">
+    <section id="homepage">
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col my-auto">
                     <h1 class="dark-text name-text">Robert Clark</h1>
                     <!--<p class="dark-text name-text">Web Developer <br> Graphic Designer <br> Digital Marketer <br> Self-Published Author</p>-->
-                    <div class="swiper-container">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
+                    <div>
+                        <div class="carousel">
                             <!-- Slides -->
-                            <div class="swiper-slide"><p class="dark-text name-text"><i class="bi bi-code-square"></i> Web Developer</p></div>
-                            <div class="swiper-slide"><p class="dark-text name-text"><i class="bi bi-palette"></i> Graphic Design Artist</p></div>
-                            <div class="swiper-slide"><p class="dark-text name-text"><i class="bi bi-megaphone"></i> Digital Marketer</p></div>
-                            <div class="swiper-slide"><p class="dark-text name-text"><i class="bi bi-pen"></i> Self-Published Author</p></div>
+                            <div><p class="dark-text name-text"><i class="bi bi-code-square"></i> Web Developer</p></div>
+                            <div><p class="dark-text name-text"><i class="bi bi-palette"></i> Graphic Design Artist</p></div>
+                            <div><p class="dark-text name-text"><i class="bi bi-megaphone"></i> Digital Marketer</p></div>
+                            <div><p class="dark-text name-text"><i class="bi bi-pen"></i> Self-Published Author</p></div>
                         </div>
+                    </div>
+                    <div class="button-div pt-5">
+                        <a class="btn" href="#contact">Get in touch</a>
                     </div>
                 </div>
 
-                <div class="col my-auto home-img">
+                <div class="col my-auto art">
                     <img class="homepage-gif" src="assets/img/rob.gif" alt="Rob Clark" width="331px" height="331px">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="about">
+    <section id="about">
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col my-auto">
                     <h2 class="white-text pb-5">Who am I?</h2>
                     <p class="white-text">I'm Rob, a Yorkshire born Self-Published Author, Graphic Design Artist, Digital Marketer and Web Developer. But that only scratches the surface of my life, so I've put together a nifty timeline that showcases some of the highlights of my career.</p>
-                    <a href=""><i class="bi bi-file-earmark-arrow-down"></i> Download a copy of my CV</a>
+                    <a class="white-text" href=""><i class="bi bi-file-earmark-arrow-down"></i> Download a copy of my CV</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="portfolio">
+    <section id="portfolio">
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col my-auto">
@@ -63,7 +74,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section id="contact">
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col my-auto">
@@ -73,19 +84,54 @@
                     <p><a class="white-text" href="https://github.com/Robert-Clark-1990" target="_blank"><i class="bi bi-github"></i> Github.com/robert-clark-1990</a></p>
                     <p><a class="white-text" href="https://www.linkedin.com/in/robert-elliott-clark/" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn.com/robert-elliott-clark</a></p>
                     <p><a class="white-text" href="https://www.instagram.com/robertclarkauthor/" target="_blank"><i class="bi bi-instagram"></i> @robertclarkauthor</a></p>
+                    <p><a class="white-text"  href=""><i class="bi bi-file-earmark-arrow-down"></i> Download CV</a></p>
+                </div>
+                <div class="col my-auto art">
+                    <img class="scribble" src="assets/img/scribble.png" alt="Rob Clark">
                 </div>
             </div>
         </div>
     </section>
 
     <!--JQuery-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     
     <!--Slick Carousel-->
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-    <script type="text/javascript" href="assets/js/main.js"></script>
+    <!--Custom JS-->
+        <script type="text/javascript" href="assets/js/main.js"></script>
+
+        <script type="text/javascript">        
+            $(document).ready(function(){
+            $('.carousel').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2500,
+            });
+            });
+
+            var homeSection = $('#homepage').offset().top;
+            var aboutSection = $('#about').offset().top;
+            var portfolioSection = $('#portfolio').offset().top;
+            var contactSection = $('#contact').offset().top;
+
+            $(document).scroll(function() {
+                var scrollPos = $(document).scrollTop();
+                if (scrollPos >= homeSection && scrollPos < aboutSection) {
+                $('.nav-item').css('color', 'rgb(20, 18, 18)');
+                } else if (scrollPos >= aboutSection && scrollPos < portfolioSection) {
+                $('.nav-item').css('color', 'whitesmoke');
+                } else if (scrollPos >= portfolioSection && scrollPos < contactSection) {
+                $('.nav-item').css('color', 'rgb(20, 18, 18)');
+                } else if (scrollPos >= contactSection) {
+                $('.nav-item').css('color', 'whitesmoke');
+                }
+            });
+
+        </script>
 
 </body>
 </html>
