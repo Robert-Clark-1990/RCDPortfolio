@@ -1,0 +1,85 @@
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Bungee Shade', cursive;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.dark-text {
+    color: rgb(20, 18, 18);
+}
+
+.white-text {
+    color: whitesmoke;
+}
+
+a {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ca0202;
+    text-decoration: none;
+    transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out; 
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+}
+
+/* --------------------------------- Homepage ----------------------------- */
+
+.homepage {
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+}
+
+.name-text {
+    text-align: center;
+}
+
+/* --------------------------------- About ----------------------------- */
+
+.about {
+    background-color: rgb(20, 18, 18);
+    width: 100vw;
+    height: 100vh;
+}
+
+/* --------------------------------- Portfolio ----------------------------- */
+
+.portfolio {
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* --------------------------------- Contact ----------------------------- */
+
+.contact {
+    background-color: rgb(20, 18, 18);
+    width: 100vw;
+    height: 100vh;
+}
+
+/* --------------------------------- Media Query ----------------------------- */
