@@ -99,6 +99,14 @@ a:hover {
     display: none;
 }
 
+#nav-item-white {
+    color: whitesmoke;
+}
+
+#nav-item-white:hover {
+    color: #ca0202;
+}
+
 /* --------------------------------- Homepage ----------------------------- */
 
 #homepage {
@@ -142,6 +150,10 @@ a:hover {
     background-color: rgb(20, 18, 18);
     width: 100vw;
     height: 100vh;
+}
+
+#about-body {
+    background-color: rgb(20, 18, 18);
 }
 
 /* --------------------------------- Portfolio ----------------------------- */
