@@ -16,7 +16,7 @@ p {
     font-size: 1rem;
 }
 
-img {
+.img {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -49,11 +49,12 @@ a:hover {
     color: whitesmoke;
     background-color: rgb(151, 3, 3);
     padding: 5px 10px;
+    margin: 10px;
     border-radius: 5px;
     font-family: 'Poiret One', cursive;
     font-size: 1rem;
     text-decoration: none;
-    width: 100%;
+    
 }
 
 .btn:hover {
@@ -65,11 +66,20 @@ a:hover {
     -webkit-transition: all 0.30s ease-in-out;
 }
 
+.contact-btn {
+    width: 100%;
+}
+
 /* --------------------------------- Navbar ----------------------------- */
 
 .topnav {
     overflow: hidden;
     background-color: none;
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
 }
   
 .topnav a {
@@ -159,6 +169,19 @@ a:hover {
     -o-transition: all 0.30s ease-in-out; 
     -moz-transition: all 0.30s ease-in-out;
     -webkit-transition: all 0.30s ease-in-out;
+}
+
+.project-img {
+    width: fit-content;
+    height: auto;
+}
+
+.award {
+    background-color: rgb(20, 18, 18);
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1rem;
 }
 
 /* --------------------------------- Contact ----------------------------- */

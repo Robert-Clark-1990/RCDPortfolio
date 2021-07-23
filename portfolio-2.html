@@ -16,34 +16,41 @@
 </head>
 <body>
     <header>
-        <div class="row topnav">
-            <a href="index.html" class="nav-item">Back</a>
+        <div class="topnav">
+            <a href="index.html" class="nav-item"><i class="bi bi-arrow-left-square"></i> Back</a>
         </div>
     </header>
 
     <section>
-
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 my-auto">
+                    <h1 class="dark-text pt-3">Viking Adventure</h1>
+                    <hr>
+                    <p class="dark-text pb-3">Robert Clark - December 2020 <span class="award"><i class="bi bi-star-fill"></i> Awarded Distinction grade by The Code Institute <i class="bi bi-star-fill"></i></span></p>
+                </div>
+                <div class="col-12 col-md-5 ">
+                    <img class="img-fluid" src="assets/img/viking.png" alt="Viking Adventure">
+                </div>
+                <div class="col-12 col-md-7">
+                    <p class="dark-text">
+                        The second project I worked on, and inspired by classic point and click adventure games such as the Monkey Island series, Viking Adventure is a short demo 
+                        showcasing the powers of Javascript and JSON.Players guide main character Ivar as he attempts to win the favour of three high council members of a Norse settlement. 
+                        <br><br>
+                        I created this project in order to test my skills in Javascript.
+                        Information on features, JSON file implementation, technologies used, testing and deployment can be found on the project's GitHub page.
+                        <br>
+                    </p>
+                    <a class="btn" href="https://robert-clark-1990.github.io/MSP2_Viking_Adventure/" target="_blank"><i class="bi bi-search"></i> View the live project</a>
+                    <a class="btn" href="https://github.com/Robert-Clark-1990/MSP2_Viking_Adventure" target="_blank"><i class="bi bi-github"></i> View the project on GitHub</a>
+                </div>
+            </div>
+        </div>
         
     </section>
 
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     
-    <!--Slick Carousel-->
-        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-    <!--Custom JS-->
-
-        <script type="text/javascript"> 
-            $(document).ready(function(){
-            $('.carousel').slick({
-                infinite: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 2500,
-            });
-            });
-        </script>
 </body>
 </html>

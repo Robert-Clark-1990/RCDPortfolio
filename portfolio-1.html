@@ -16,8 +16,8 @@
 </head>
 <body>
     <header>
-        <div class="row topnav">
-            <a href="index.html" class="nav-item">Back</a>
+        <div class="topnav">
+            <a href="index.html" class="nav-item"><i class="bi bi-arrow-left-square"></i> Back</a>
         </div>
     </header>
 
@@ -25,10 +25,25 @@
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col-12 my-auto">
-                    <h1 class="dark-text pt-3 pb-5">Milly Armstrong Clark</h1>
+                    <h1 class="dark-text pt-3">Milly Armstrong Clark</h1>
+                    <hr>
+                    <p class="dark-text pb-3">Robert Clark - November 2020 <span class="award"><i class="bi bi-star-fill"></i> Awarded Merit grade by The Code Institute <i class="bi bi-star-fill"></i></span></p>
                 </div>
-                <div class="col-12 col-md-6 my-auto">
-                    <img src="assets/img/mac.png" alt="Milly Armstrong Clark">
+                <div class="col-12 col-md-5 ">
+                    <img class="img-fluid" src="assets/img/mac.png" alt="Milly Armstrong Clark">
+                </div>
+                <div class="col-12 col-md-7">
+                    <p class="dark-text">
+                        My first milestone project in my Diploma in Software Development, and first foray into coding was the creation of a website for comedian/podcaster/screenwriter, 
+                        Milly Armstrong Clark. The design features a fun and colourful aesthetic in keeping with Milly's comedic style, and showcases a selection of her work, a news page,
+                        and a contact form.
+                        <br><br>
+                        This project was built using the five planes of UX design to develop a site that is focused in its needs and objectives, and provides a high quality 
+                        experience for the user. Information on features, technologies used, testing and deployment can be found on the project's GitHub page.
+                        <br>
+                    </p>
+                    <a class="btn" href="https://www.millyarmstrongclark.com/" target="_blank"><i class="bi bi-search"></i> View the live website</a>
+                    <a class="btn" href="https://github.com/Robert-Clark-1990/MSP1_Mill_Comedy" target="_blank"><i class="bi bi-github"></i> View the project on GitHub</a>
                 </div>
             </div>
         </div>
@@ -38,21 +53,5 @@
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     
-    <!--Slick Carousel-->
-        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-    <!--Custom JS-->
-
-        <script type="text/javascript"> 
-            $(document).ready(function(){
-            $('.carousel').slick({
-                infinite: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 2500,
-            });
-            });
-        </script>
 </body>
 </html>

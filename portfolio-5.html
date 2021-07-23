@@ -16,34 +16,42 @@
 </head>
 <body>
     <header>
-        <div class="row topnav">
-            <a href="index.html" class="nav-item">Back</a>
+        <div class="topnav">
+            <a href="index.html" class="nav-item"><i class="bi bi-arrow-left-square"></i> Back</a>
         </div>
     </header>
 
     <section>
-
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 my-auto">
+                    <h1 class="dark-text pt-3">AT Engineering Solutions</h1>
+                    <hr>
+                    <p class="dark-text pb-3">Robert Clark - July 2021</p>
+                </div>
+                <div class="col-12 col-md-5 ">
+                    <img class="img-fluid" src="assets/img/at.png" alt="AT Engineering Solutions">
+                </div>
+                <div class="col-12 col-md-7">
+                    <p class="dark-text">
+                        Marking my first efforts in web development for a client (albiet a cousin), AT Engineering Solutions is a functioning website designed to generate work from aspiring clients.
+                        <br><br>
+                        This site uses Elfsight to automatically populate an up-to-date feed of the business's Instagram account (per the client's request). However, every other element on the page has
+                        been created by me. The project runs with Python, and has a dedicated backend admin page for the client to upload new customer reviews when necessary.
+                        <br><br>
+                        Information on features, technologies used, testing and deployment can be found on the project's GitHub page.
+                        <br>
+                    </p>
+                    <a class="btn" href="https://atengineeringsolutions.herokuapp.com/" target="_blank"><i class="bi bi-search"></i> View the live website</a>
+                    <a class="btn" href="https://github.com/Robert-Clark-1990/atengineeringsolutions" target="_blank"><i class="bi bi-github"></i> View the project on GitHub</a>
+                </div>
+            </div>
+        </div>
         
     </section>
 
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     
-    <!--Slick Carousel-->
-        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-    <!--Custom JS-->
-
-        <script type="text/javascript"> 
-            $(document).ready(function(){
-            $('.carousel').slick({
-                infinite: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 2500,
-            });
-            });
-        </script>
 </body>
 </html>

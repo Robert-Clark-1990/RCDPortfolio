@@ -16,34 +16,51 @@
 </head>
 <body>
     <header>
-        <div class="row topnav">
-            <a href="index.html" class="nav-item">Back</a>
+        <div class="topnav">
+            <a href="index.html" class="nav-item"><i class="bi bi-arrow-left-square"></i> Back</a>
         </div>
     </header>
 
     <section>
-
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 my-auto">
+                    <h1 class="dark-text pt-3">Robert Clark Design</h1>
+                    <hr>
+                    <p class="dark-text pb-3">Robert Clark - May 2021 <span class="award"><i class="bi bi-star-fill"></i> Awarded Distinction grade by The Code Institute <i class="bi bi-star-fill"></i></span></p>
+                </div>
+                <div class="col-12 col-md-5 ">
+                    <img class="img-fluid" src="assets/img/rcd.png" alt="Robert Clark Design">
+                </div>
+                <div class="col-12 col-md-7 pb-5">
+                    <p class="dark-text">
+                        For the final project in the Code Institute course, I wanted to create something personal and important to me and my future as a Software Developer. 
+                        I have been a hugely creative individual my whole life, and have worked in the past as a freelance Graphic Designer and Digital Marketer through the 
+                        moniker of Robert Clark Design.
+                        <br><br>
+                        Robert Clark Design is a full stack website that showcases a portfolio of design and development projects. The purpose is to demonstrate the work and 
+                        skillset of the site user in an inviting and stylish way in order to encourage site visitors to request and purchase an array of available products, 
+                        or purchase a commission package. Once a user has purchased a product, they will be able to log in via the email and password and view their order history, 
+                        or if they purchased a commission package, they will be able to upload images for reference. The site owner will be able to access uploaded images for the 
+                        commission. Once the commission is complete, the customer will be invited to leave a testimonial which will display on the site.
+                        <br><br>
+                        As a side note as I'm aware it might seem strange that I created a full portfolio project only to sideline it to a section in this portfolio, however as I 
+                        included the shop functionality in the project that showcases the use of order models and Stripe payments, I didn't want to remove these complex elements just
+                        so that the site as a whole could be used. So instead, we have a case of portfolio-inception, so please enjoy both.
+                        <br><br>
+                        Information on features, technologies used, testing and deployment can be found on the project's GitHub page.
+                        <br>
+                    </p>
+                    <a class="btn" href="https://robertclarkdesign.herokuapp.com/" target="_blank"><i class="bi bi-search"></i> View the live website</a>
+                    <a class="btn" href="https://github.com/Robert-Clark-1990/MS4_RCD" target="_blank"><i class="bi bi-github"></i> View the project on GitHub</a>
+                </div>
+            </div>
+        </div>
         
     </section>
 
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     
-    <!--Slick Carousel-->
-        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-    <!--Custom JS-->
-
-        <script type="text/javascript"> 
-            $(document).ready(function(){
-            $('.carousel').slick({
-                infinite: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 2500,
-            });
-            });
-        </script>
 </body>
 </html>
