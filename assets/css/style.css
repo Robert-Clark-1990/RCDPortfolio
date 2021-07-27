@@ -151,6 +151,7 @@ footer {
 
 .art {
     order: -1!important;
+    display: inherit;
 }
 
 .button-div {
@@ -192,6 +193,9 @@ footer {
 
 .rob-gif {
     border-radius: 50%;
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
 }
 
 #intro {
@@ -218,7 +222,13 @@ footer {
     height: 100vh;
 }
 
-#other {
+#education {
+    background-color: rgb(20, 18, 18);
+    width: 100vw;
+    height: 100vh;
+}
+
+#employment {
     background-color: rgb(20, 18, 18);
     width: 100vw;
     height: 100vh;
@@ -352,6 +362,10 @@ footer {
     }
     dl, dd, dt {
         font-size: 1.2rem;
+    }
+    .rob-gif {
+        max-width: 100%;
+        max-height: 100%;
     }
 }
 
