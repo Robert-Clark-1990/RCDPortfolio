@@ -16,6 +16,28 @@ p {
     font-size: 1rem;
 }
 
+strong {
+    font-family: 'Poiret One', cursive;
+    font-size: 1rem;
+}
+
+dl, dd, dt {
+    font-family: 'Poiret One', cursive;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+.colour-text {
+    background: linear-gradient(62deg, #6ef0f9 0%, #f591f9 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+li {
+    font-family: 'Poiret One', cursive;
+    font-size: 1rem;
+}
+
 .img {
     margin-left: auto;
     margin-right: auto;
@@ -28,6 +50,10 @@ p {
 
 .white-text {
     color: whitesmoke;
+}
+
+.text-center {
+    text-align: center;
 }
 
 a {
@@ -68,6 +94,10 @@ a:hover {
 
 .contact-btn {
     width: 100%;
+}
+
+footer {
+    background-color: rgb(20, 18, 18);
 }
 
 /* --------------------------------- Navbar ----------------------------- */
@@ -156,6 +186,44 @@ a:hover {
     background-color: rgb(20, 18, 18);
 }
 
+.about-imgs {
+    width: 100vw;
+}
+
+.rob-gif {
+    border-radius: 50%;
+}
+
+#intro {
+    background-color: rgb(20, 18, 18);
+    width: 100vw;
+    height: 100vh;
+}
+
+#coder {
+    background-color: rgb(20, 18, 18);
+    width: 100vw;
+    height: 100vh;
+}
+
+#writer {
+    background-color: rgb(20, 18, 18);
+    width: 100vw;
+    height: 100vh;
+}
+
+#artist {
+    background-color: rgb(20, 18, 18);
+    width: 100vw;
+    height: 100vh;
+}
+
+#other {
+    background-color: rgb(20, 18, 18);
+    width: 100vw;
+    height: 100vh;
+}
+
 /* --------------------------------- Portfolio ----------------------------- */
 
 #portfolio {
@@ -193,7 +261,7 @@ a:hover {
     color: whitesmoke;
     border-radius: 20px;
     padding: 10px;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 /* --------------------------------- Contact ----------------------------- */
@@ -247,15 +315,6 @@ a:hover {
     h2 {
         font-size: 3rem;
     }
-    p {
-        font-size: 1.5rem;
-    }
-    a {
-        font-size: 1.5rem;
-    }
-    .btn {
-        font-size: 1.5rem;
-    }
     .home-gif {
         width: 331px;
         height: auto;
@@ -263,6 +322,9 @@ a:hover {
     }
     .scribble {
         width: 30vw;
+    }
+    .award {
+        font-size: 1rem;
     }
 }
 
@@ -272,6 +334,24 @@ a:hover {
     }
     .portfolio-col {
         margin-left: 50px;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    strong {
+        font-size: 1.2rem;
+    }
+    a {
+        font-size: 1.2rem;
+    }
+    .btn {
+        font-size: 1.2rem;
+    }
+    li {
+        font-size: 1.2rem;
+    }
+    dl, dd, dt {
+        font-size: 1.2rem;
     }
 }
 
