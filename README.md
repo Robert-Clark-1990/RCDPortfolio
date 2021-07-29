@@ -1,4 +1,4 @@
-This is a portfolio project for me. It's fairly simple HTML and CSS with a bit of JS in for good measure.
+This is a portfolio project for me. It's fairly simple HTML and CSS with a bit of JS in for good measure. 
 
 [live website](https://robertclark.design/)
 
