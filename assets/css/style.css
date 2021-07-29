@@ -17,7 +17,7 @@ p {
 }
 
 .big {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 strong {
@@ -166,7 +166,7 @@ footer,.row {
 /* --------------------------------- Homepage ----------------------------- */
 
 #homepage {
-    background-color: whitesmoke;
+    background-color: white;
     width: 100vw;
     height: 100vh;
 }
@@ -252,6 +252,13 @@ footer,.row {
     margin-bottom: 50px;
 }
 
+#marketer {
+    background-color: rgb(20, 18, 18);
+    width: 100vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 #education {
     background-color: rgb(20, 18, 18);
     width: 100vw;
@@ -276,9 +283,10 @@ footer,.row {
 /* --------------------------------- Portfolio ----------------------------- */
 
 #portfolio {
-    background-color: whitesmoke;
+    background-color: white;
     width: 100vw;
-    height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .portfolio-img {
@@ -415,6 +423,9 @@ footer,.row {
         max-width: 100%;
         max-height: 100%;
     }
+    .list {
+        padding-left: 20px;
+    }
 }
 
 @media all and (min-width: 990px) {
@@ -441,6 +452,12 @@ footer,.row {
     .portfolio-col {
         margin-left: 100px;
     }
+    #portfolio {
+        width: 100vw;
+        height: 100vh;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
     #intro {
         width: 100vw;
         height: 100vh;
@@ -455,17 +472,18 @@ footer,.row {
         margin-top: 100px;
         margin-bottom: 100px;
     }
-
     #artist {
         margin-top: 100px;
         margin-bottom: 100px;
     }
-
+    #marketer {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
     #education {
         margin-top: 100px;
         margin-bottom: 100px;
     }
-
     #employment {
         margin-top: 100px;
         margin-bottom: 100px;
